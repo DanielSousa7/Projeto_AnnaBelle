@@ -1,0 +1,38 @@
+body {
+	background: #d2d2c1 url(img/fundo.png);
+	font: 16px arial, Helvetica, sans-serif;
+	}
+
+#principal {
+	width: 900px; /* Largura de 900px para trabalhar */
+}
+
+#menu{
+	background: #c5c5b2;
+	padding: 18px; /* Aplica o espaço 18px envolta dos elementos que estiver com essa id */
+}
+
+a {
+	color: #4b566a;
+	text-decoration: none; /* Tira o Underline */
+	font-weight: bold;  /* deixa a fonte bold */
+	padding: 5px;	 /* Aplica o espaço 5px envolta dos elementos que estiver na tag a */
+}
+
+#conteudo {
+	background: #d8d8d9;
+	padding: 20px; /* Aplica o espaço 10px envolta dos elementos que estiver com essa id */
+}
+
+.foto-conteudo{
+	border: 10px solid #c3c3ae; /* Aplica borda envolta do elemento que estiver com essa classe */
+}
+
+#rodape{
+	text-align: center; /* Alinha os elementos que utiliza essa id */
+}
+
+h1 {
+	color: #828271;
+	font-size: 1.2em;
+}
